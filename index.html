@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio - Hugo Defever</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#1e3c72;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+nav{
+background:#222;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:20px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#4da6ff;
+}
+
+section{
+max-width:1000px;
+margin:auto;
+padding:40px;
+}
+
+.presentation{
+display:flex;
+align-items:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.presentation img{
+width:220px;
+border-radius:10px;
+}
+
+.cv{
+margin-top:20px;
+}
+
+.cv a{
+background:#1e3c72;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:5px;
+}
+
+.cv a:hover{
+background:#2a5298;
+}
+
+/* compétences */
+
+.competences{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.comp{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+/* schéma */
+
+.schema{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+margin-top:30px;
+}
+
+.box{
+background:#2a5298;
+color:white;
+padding:30px;
+text-align:center;
+border-radius:10px;
+font-weight:bold;
+}
+
+/* expériences */
+
+.exp{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:8px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#1e3c72;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Hugo Defever</h1>
+<p>Étudiant en 2ème année de BUT Génie Électrique et Informatique Industrielle</p>
+
+</header>
+
+<nav>
+
+<a href="#presentation">Présentation</a>
+<a href="#competences">Compétences</a>
+<a href="#experience">Expériences</a>
+
+</nav>
+
+<section id="presentation">
+
+<h2>Présentation</h2>
+
+<div class="presentation">
+
+<img src="photo.jpg">
+
+<div>
+
+<p>
+Je suis étudiant en deuxième année de BUT GEII.  
+Je m'intéresse particulièrement à l'électronique, à la programmation et aux systèmes industriels.
+</p>
+
+<p>
+Au cours de ma formation, j'ai développé des compétences en instrumentation, simulation et programmation.
+</p>
+
+<div class="cv">
+
+<a href="cv.pdf" download>Télécharger mon CV</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="competences">
+
+<h2>Compétences techniques</h2>
+
+<div class="competences">
+
+<div class="comp">
+<b>Instrumentation</b><br><br>
+Oscilloscope<br>
+Multimètre<br>
+Analyse de signaux
+</div>
+
+<div class="comp">
+<b>Programmation</b><br><br>
+C++<br>
+Python (Thonny)
+</div>
+
+<div class="comp">
+<b>Simulation</b><br><br>
+MATLAB<br>
+Simulink
+</div>
+
+<div class="comp">
+<b>Langues</b><br><br>
+Anglais B2<br>
+Allemand B1
+</div>
+
+</div>
+
+<h3>Schéma de compétences</h3>
+
+<div class="schema">
+
+<div class="box">
+Concevoir
+</div>
+
+<div class="box">
+Vérifier
+</div>
+
+<div class="box">
+Maintenir
+</div>
+
+<div class="box">
+Implanter
+</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2>Expériences professionnelles</h2>
+
+<div class="exp">
+<b>Avril 2026 (10 semaines)</b><br>
+Stage – CICOR (Douarnenez)<br>
+Fabrication et conception d’équipements électroniques
+</div>
+
+<div class="exp">
+<b>Juillet 2025 (4 semaines)</b><br>
+Employé – Décors et Services (Saint-Renan)<br>
+Travaux de peinture et étude de plans
+</div>
+
+<div class="exp">
+<b>Juillet 2023 et Juillet 2024 (3 semaines)</b><br>
+Employé – Services techniques<br>
+Commune de Ploudalmézeau
+</div>
+
+<div class="exp">
+<b>Décembre 2023</b><br>
+Immersion – Mademoiselle Desserts (Saint-Renan)<br>
+Maintenance industrielle
+</div>
+
+<div class="exp">
+<b>Février 2021</b><br>
+Stage – Cyber Services Informatique 29<br>
+Ploudalmézeau
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Hugo Defever
+
+</footer>
+
+</body>
+
+</html>
